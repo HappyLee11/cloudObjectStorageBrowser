@@ -1,0 +1,5 @@
+G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowser.dir
+G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps.dir
+G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowser_autogen.dir
