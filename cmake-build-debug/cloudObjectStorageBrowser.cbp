@@ -21,7 +21,7 @@
 				<Option output="G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/cloudObjectStorageBrowser.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="1"/>
+				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
@@ -58,7 +58,7 @@
 				<Option output="G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/cloudObjectStorageBrowser.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="1"/>
+				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
@@ -154,6 +154,12 @@
 			<Option target="cloudObjectStorageBrowser"/>
 		</Unit>
 		<Unit filename="G:/Clion-Projects/cloudObjectStorageBrowser/main.cpp">
+			<Option target="cloudObjectStorageBrowser"/>
+		</Unit>
+		<Unit filename="G:/Clion-Projects/cloudObjectStorageBrowser/resources/icons/mac_icon.icns">
+			<Option target="cloudObjectStorageBrowser"/>
+		</Unit>
+		<Unit filename="G:/Clion-Projects/cloudObjectStorageBrowser/resources/icons/resources.rc">
 			<Option target="cloudObjectStorageBrowser"/>
 		</Unit>
 		<Unit filename="G:/Clion-Projects/cloudObjectStorageBrowser/CMakeLists.txt">

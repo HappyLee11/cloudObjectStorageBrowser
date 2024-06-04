@@ -113,11 +113,17 @@ CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.s"
 	G:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Clion-Projects\cloudObjectStorageBrowser\hellocosbrowsers.cpp -o CMakeFiles\cloudObjectStorageBrowser.dir\hellocosbrowsers.cpp.s
 
+CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj: CMakeFiles/cloudObjectStorageBrowser.dir/flags.make
+CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj: G:/Clion-Projects/cloudObjectStorageBrowser/resources/icons/resources.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Clion-Projects\cloudObjectStorageBrowser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building RC object CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj"
+	G:\Qt\Tools\mingw1120_64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) G:\Clion-Projects\cloudObjectStorageBrowser\resources\icons\resources.rc CMakeFiles\cloudObjectStorageBrowser.dir\resources\icons\resources.rc.obj
+
 # Object files for target cloudObjectStorageBrowser
 cloudObjectStorageBrowser_OBJECTS = \
 "CMakeFiles/cloudObjectStorageBrowser.dir/cloudObjectStorageBrowser_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/cloudObjectStorageBrowser.dir/main.cpp.obj" \
-"CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.obj"
+"CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.obj" \
+"CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj"
 
 # External object files for target cloudObjectStorageBrowser
 cloudObjectStorageBrowser_EXTERNAL_OBJECTS =
@@ -125,6 +131,7 @@ cloudObjectStorageBrowser_EXTERNAL_OBJECTS =
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/cloudObjectStorageBrowser_autogen/mocs_compilation.cpp.obj
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/main.cpp.obj
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.obj
+cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/build.make
 cloudObjectStorageBrowser.exe: G:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a
 cloudObjectStorageBrowser.exe: G:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a
@@ -132,7 +139,7 @@ cloudObjectStorageBrowser.exe: G:/Qt/6.7.1/mingw_64/lib/libQt6Core.a
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/linkLibs.rsp
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/objects1.rsp
 cloudObjectStorageBrowser.exe: CMakeFiles/cloudObjectStorageBrowser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\Clion-Projects\cloudObjectStorageBrowser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cloudObjectStorageBrowser.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\Clion-Projects\cloudObjectStorageBrowser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cloudObjectStorageBrowser.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cloudObjectStorageBrowser.dir\link.txt --verbose=$(VERBOSE)
 	"G:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/plugins/platforms/
 	"G:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E copy G:/Qt/6.7.1/mingw_64/plugins/platforms/qwindows.dll G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug/plugins/platforms/

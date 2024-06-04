@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cloudObjectStorageBrowser.dir/hellocosbrowsers.cpp.obj.d"
   "CMakeFiles/cloudObjectStorageBrowser.dir/main.cpp.obj"
   "CMakeFiles/cloudObjectStorageBrowser.dir/main.cpp.obj.d"
+  "CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj"
   "CMakeFiles/cloudObjectStorageBrowser_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/cloudObjectStorageBrowser_autogen.dir/ParseCache.txt"
   "cloudObjectStorageBrowser_autogen"
@@ -15,6 +16,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/cloudObjectStorageBrowser.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

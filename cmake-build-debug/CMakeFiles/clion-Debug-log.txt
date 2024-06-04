@@ -9,6 +9,6 @@ CMake Deprecation Warning:
 
 
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done (0.9s)
+-- Configuring done (1.0s)
 -- Generating done (0.1s)
 -- Build files have been written to: G:/Clion-Projects/cloudObjectStorageBrowser/cmake-build-debug

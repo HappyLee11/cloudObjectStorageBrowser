@@ -226,6 +226,14 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cloudObjectStorageBrowser.dir\build.make CMakeFiles/cloudObjectStorageBrowser.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+resources/icons/resources.obj: resources/icons/resources.rc.obj
+.PHONY : resources/icons/resources.obj
+
+# target to build an object file
+resources/icons/resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cloudObjectStorageBrowser.dir\build.make CMakeFiles/cloudObjectStorageBrowser.dir/resources/icons/resources.rc.obj
+.PHONY : resources/icons/resources.rc.obj
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -246,6 +254,7 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... resources/icons/resources.obj
 .PHONY : help
 
 

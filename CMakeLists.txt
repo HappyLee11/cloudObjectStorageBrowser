@@ -13,13 +13,27 @@ find_package(Qt6 COMPONENTS
         Gui
         Widgets
         REQUIRED)
+#添加mac端图标文件
+set(APP_ICON_MACOS "resources/icons/mac_icon.icns")
+set_source_files_properties(${APP_ICON_MACOS} PROPERTIES
+MACOS_PACKAGE_LOCATION "Resources")
 
 add_executable(cloudObjectStorageBrowser main.cpp
         hellocosbrowsers.cpp
         hellocosbrowsers.h
         hellocosbrowsers.ui
         hellocosbrowsers.h
+        resources/icons/resources.rc
+        ${APP_ICON_MACOS}#包括.icns图标文件
 )
+
+#设置Mac os 的应用图标
+set_target_properties(cloudObjectStorageBrowser PROPERTIES
+MACOSX_BUNDLE_ICON_FILE mac_icon.icns
+MACOSX_BUNDLE TRUE
+MACOSX_FRAMEWORK_IDENTIFIER org.zjl.cloudObjectStorageBrowser
+        RESOURCE "${APP_ICON_MACOS}")
+
 target_link_libraries(cloudObjectStorageBrowser
         Qt::Core
         Qt::Gui

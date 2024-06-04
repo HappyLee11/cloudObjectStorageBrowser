@@ -65,8 +65,8 @@ include CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps.dir/compiler
 # Include the progress variables for this target.
 include CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps: G:/Qt/6.7.1/mingw_64/./bin/moc.exe
 CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps: G:/Qt/6.7.1/mingw_64/./bin/uic.exe
+CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps: G:/Qt/6.7.1/mingw_64/./bin/moc.exe
 
 cloudObjectStorageBrowser_autogen_timestamp_deps: CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps
 cloudObjectStorageBrowser_autogen_timestamp_deps: CMakeFiles/cloudObjectStorageBrowser_autogen_timestamp_deps.dir/build.make
